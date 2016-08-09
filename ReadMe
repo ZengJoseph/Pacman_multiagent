@@ -1,0 +1,10 @@
+# Created by Tianyi Zeng 2012 for Artificial Intelligence
+# Project: Pacman agent path planning with perfect information
+# Established under the framework provided by the course
+# My algorithms in: multiAgents.py
+# Algorithms used and compared: MiniMax, AlphaBetaPruning
+# Improved Evaluation Function
+# How to run
+python pacman.py -p AlphaBetaAgent -a depth=3 -l smallClassic
+python pacman.py -p ExpectimaxAgent -l trappedClassic -a depth=3 -q -n 10
+python pacman.py -l smallClassic -p ExpectimaxAgent -a evalFn=better -q -n 10
